@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    $(".icon-whatsapp").click(function(){
+        $("p").toggle();
+    });
+});
+$(document).ready(function(){
 	var imgItems = $('.slider li').length; // Numero de Slides
 	var imgPos = 1;
 

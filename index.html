@@ -47,19 +47,19 @@
 
 		
 						<a href="http://www.facebook.com/falconmasters"><img src="image/recargas.png" class="recargas"></a>
-						<a href=""><img src="image/logos_celulares.png" class="logosCompanias"></a>
+						<a><img src="image/logos_celulares.png" class="logosCompanias"></a>
 						</div>
 					</div>
 				</div>
 		</div>
 
 		<div class="content-two">
-			<img src="image/quienessomos.png" class="quinessomos">
+			<p>En ATC nos dedicamos a la comercialización de telefonía, teniendo como prioridad brindar un excelente servicio a nuestros clientes, satisfaciendo sus necesidades en el ámbito de la comunicación móvil.</p>
 		</div>
 
 		<div class="content-three">
-			<img src="image/servicios.png" class="servicios">
-			</div>
+			<p>Nuestro servicio se encarga de proveer de productos de tecnología celular a los poblados de la región centro-occidente del país.</p>
+			<h4>¡Nosotros te acercamos a lo más novedoso de la tecnología celular!</h4>
 		</div>
 
 		
@@ -69,13 +69,55 @@
 				<p>Copyright© 2017-2018. Morpheus DSS</p>
 				<p>Teléfono de soporte: 4661472278</p>
 		</div>
+		<!--<body>
+	<ul>
+		<li id="primero">mostrar el primer div oculto
+			<div class="primero">Contenido del primer div</div>
+		</li>
+		<li id="segundo">mostrar el segundo div oculto
+			<div class="segundo">Contenido del segundo div</div>
+		</li>
+	</ul>-->
+
 		</div>
 		<div class="social">
 			<ul>
 				<li><a href="http://www.facebook.com/falconmasters" target="_blank" class="icon-facebook"></a></li>
-				<li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon-twitter"></a></li>
+				<li id="segundo"><a class="icon-whatsapp"></a>
+					<div class="segundo">4661139283</div>
+				</li>
 			</ul>
 		</div>
+
+		<style>
+	.segundo {
+		display:none;
+		padding:3px;
+		border:1px solid #ccc;
+		background-color:black;
+		position:relative;
+		width:100px;
+		color: white;
+	}
+	#segundo {
+		position:left;
+
+
+	}
+	/* Al pasar el mouse por encima del div mostramos el div con la
+		clase ".primero". Esta clase, tiene que estar dentro del id
+		"primero" para que pueda funcionar
+	 */
+	#primero:hover .primero {
+		display:block;
+	}
+	#segundo:hover .segundo {
+		display:block;
+	}
+	</style>
+</head>
+ 
+
 	</main>
 
 	
