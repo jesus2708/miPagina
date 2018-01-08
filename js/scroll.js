@@ -15,7 +15,7 @@ $('#inicio').on('click', function(){
 })
 
 $('#acercade').on('click', function(){
-    $('html, body').animate( {scrollTop: 1400}, 1000);
+    $('html, body').animate( {scrollTop: 1200}, 1000);
     //Inicio
     $('#inicio2').css("background","none");
     $('#inicio2').css("color","#878787");
@@ -31,7 +31,7 @@ $('#acercade').on('click', function(){
 })
 
 $('#servicios').on('click', function(){
-    $('html, body').animate( {scrollTop: 2700}, 1000);
+    $('html, body').animate( {scrollTop: 2100}, 1000);
     //Inicio
     $('#inicio2').css("background","none");
     $('#inicio2').css("color","#878787");
