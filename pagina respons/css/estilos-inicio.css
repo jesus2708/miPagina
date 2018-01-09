@@ -1,0 +1,133 @@
+.content-one{
+	width: 100%;
+}
+
+.content-portada{
+	width: 100%; 
+
+}
+
+.content-img{
+	width: 100%;
+	height: 1350px;
+	background-image: url(../image/fondo.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*background-size: 200%;*/ 
+	/*-webkit-box-pack: center; 
+	-ms-flex-pack: center; 
+	justify-content: center;*/
+}
+
+@media screen and (max-width: 900px){
+	.content-img{
+	background-size: 2000px;
+	}
+}
+
+.content-font{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	top: 100px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	text-align: center;
+	padding: 10px;
+}
+
+.content-font label{
+	color: white;
+	font-size: 60px;
+	margin-top: 20px;
+}
+.content-font h2{
+	color: white;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+
+/**CONTENT TWO*/
+
+
+/*CONTENT THREE*/
+
+
+
+/*CONTENT FOR*/
+
+.content-for{
+	width: 100%;
+	background: black;
+}
+
+.content-item2{
+	width: 100%;
+	height: 1350px;
+	background-image: url(../image/quienessomos.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+
+}
+@media screen and (max-width: 1400px){
+	.content-item2{
+		height: 800px;
+		background-size: 1200px;
+		background-image: url(../image/quienessomos2.png);
+	}
+}
+@media screen and (max-width: 900px){
+	.content-item2{
+		height: 500px;
+		background-size: 800px;
+		background-image: url(../image/quienessomos1.png);
+	}
+}
+@media screen and (max-width: 600px){
+	.content-item2{
+		height: 890px;
+		background-size: 550px;
+		background-image: url(../image/somos_versioncelular.png);
+	}
+}
+
+/*CONTENT FIVE*/
+
+.content-five{
+	width: 100%;
+	background: red;
+}
+.content-item3{
+	width: 100%;
+	height: 1200px;
+	background-image: url(../image/servicios.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 1400px){
+	.content-item3{
+		height: 650px;
+		background-size: 1100px;
+		background-image: url(../image/servicios2.png);
+	}
+}
+@media screen and (max-width: 900px){
+	.content-item3{
+		height: 480px;
+		background-size: 720px;
+		background-image: url(../image/servicios1.png);
+	}
+}
+@media screen and (max-width: 600px){
+	.content-item3{
+		height: 1140px;
+		background-size: 500px;
+		background-image: url(../image/03_celular.png);
+	}
+}
+
+
