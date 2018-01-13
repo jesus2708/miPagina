@@ -9,7 +9,7 @@
 
 header{
 	width: 100%;
-	background: #2B2B2B;
+	background: #363434;
 	position: fixed;
 	z-index: 100;
 }
@@ -54,7 +54,7 @@ header{
 }
 
 .menu li:nth-child(1) a{
-    background: #F45C5C; 
+    background: #c7babe; 
     color:white;
 }
 
